@@ -1,0 +1,76 @@
+1 C 1 C-
+2 C 1 H 1 CH-
+1 O 1 O-
+1 S 1 S-
+2 O 1 H 1 OH-
+2 O 1 H 2 H2O-
+1 F 1 F-
+1 C 2 C2-
+2 C 2 H 1 C2H-
+2 C 1 N 1 CN-
+2 C 2 H 2 C2H2-
+2 C 2 H 3 C2H3-
+1 P 1 P-
+1 O 2 O2-
+1 S 1 S-2*2
+1 Cl 1 Cl-
+1 C 3 C3-
+2 C 3 H 1 C3H-
+3 C 1 N 1 O 1 CNO-
+2 N 1 O 2 NO2-
+2 S 1 O 1 SO-
+1 C 4 C4-
+2 Na 1 Cl 1 NaCl-
+2 Al 1 O 2 AlO2-
+3 C 2 H 4 O 3 CH3CHO2-
+2 Si 1 O 2 SiO2-
+2 C 1 O 3 CO3-
+1 C 5 C5-
+3 H 1 C 1 O 3 HCO3-
+2 N 1 O 3 NO3-
+2 P 1 O 2 PO2-
+3 H 1 N 1 O 3 HNO3-
+2 S 1 O 2 SO2-
+1 C 6 C6-
+3 C 3 H 6 O 2 C3H6O2-
+2 Si 1 O 3 SiO3-
+2 P 1 O 3 PO3-
+1 Br 1 Br-
+3 N 2 H 3 O 2 NH3NO2-
+2 S 1 O 3 SO3-
+1 C 7 C7-
+3 Na 1 N 1 O 3 NaNO3-
+3 Na 1 P 1 O 2 NaPO2-
+2 C 2 O 4 (COO)2-
+3 C 2 O 4 H 1 (COO)2H-
+2 Si 1 O 4 SiO4-
+2 Na 1 Cl 2 NaCl2-
+2 P 1 O 4 PO4-
+3 H 1 P 1 O 4 HPO4-
+2 S 1 O 4 SO4-
+1 C 8 C8-
+3 H 1 S 1 O 4 HSO4-
+1 C 9 C9-
+2 K 1 Cl 2 KCl2-
+4 C 1 H 3 S 1 O 4 CH3SO4-
+4 N 1 H 4 S 1 O 4 NH4SO4-
+3 Na 1 N 2 O 4 Na(NO2)2-
+3 Al 1 Si 1 O 4 AlSiO4-
+3 Na 1 S 1 O 4 NaSO4-
+3 H 1 N 2 O 6 H(NO3)2-
+3 Na 1 N 2 O 5 NaNO2NO3-
+3 K 1 S 1 O 4 KSO4-
+3 N 3 H 4 O 6 Nh4(NO3)2-
+3 Na 1 N 2 O 6 Na(NO3)2-
+2 Si 3 O 4 Si3O4-
+2 Na 2 Cl 3 (NaCl)2Cl-
+3 H 6 N 4 O 6 (NH3)2(NO3)2-
+4 H 2 N 1 O 7 S 1 HNO3HSO4-
+3 K 1 N 2 O 6 K(NO3)2-
+3 H 1 S 2 O 7 HS2O7-
+3 H 3 S 2 O 8 H(HSO4)2-
+4 N 1 H 6 S 2 O 8 NH4(HSO4)2-
+3 K 1 S 2 O 7 KS2O7-
+4 Na 1 H 2 S 2 O 8 Na(HSO4)2-
+4 K 1 H 2 S 2 O 8 K(HSO4)2-
+-1

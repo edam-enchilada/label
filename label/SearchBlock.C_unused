@@ -1,0 +1,12 @@
+#include <SearchBlock.h>
+
+SearchBlock::SearchBlock(int size) {
+  low = new int[size];
+  high = new int[size];
+  split = new int[size];
+  splitCnt = size;
+  this->size = size;
+
+  for (int i=0; i < size; i++) {
+	
+}

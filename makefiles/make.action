@@ -1,0 +1,36 @@
+
+.PHONY: all clean tidy
+
+OBJ_DIR = obj
+SRC_DIR = src
+
+vpath %.o $(OBJ_DIR)
+
+CXXFLAGS += -I$(SPECTRUM_ROOT)/include
+
+TARGET_LIB_PATH = $(SPECTRUM_ROOT)/lib
+
+all: $(OBJ_DIR) $(TARGET)
+
+$(OBJ_DIR)/%.o %.o: %.cpp
+	$(CXX) -c $(CXXFLAGS) $< -o $(OBJ_DIR)/$(@F)
+	touch $(OBJ_DIR)/$(@F)
+
+$(OBJ_DIR):
+	mkdir $@
+
+SRCS = $(FILES)
+OBJS = $(FILES:%.cpp=%.o)
+
+$(TARGET): $(OBJS)
+	ar cr $(TARGET_LIB_PATH)/$@ $?
+	-$(RANLIB) $(TARGET_LIB_PATH)/$@
+
+tidy:
+	/bin/rm -f $(OBJ_DIR)/*.o *~
+
+clean: tidy
+	/bin/rm -f $(TARGET_LIB_PATH)/$(TARGET)
+
+depend :
+	makedepend -pobj/ $(addprefix -I, $(IncDir)) -I$(SPECTRUM_ROOT)/include  $(FILES)

@@ -1,0 +1,164 @@
+1 H 1 H+
+1 Li 1 Li+
+1 N 1 N+2*+2
+1 B 1 B+
+1 C 1 C+
+2 C 1 H 3 CH3+
+2 O 1 H 1 OH+
+2 N 1 H 3 NH3+
+2 H 2 O 1 H2O+
+2 N 1 H 4 NH4+
+2 H 3 O 1 H3O+
+1 Na 1 Na+
+1 Mg 1 Mg+
+1 C  2 C2+
+2 C  2 H 1 C2H+
+2 C  2 H 2 C2H2+
+1 Al 1 Al+
+2 C 2 H 3 C2H3+
+1 Si 1 Si+
+2 C 1 O 1 CO+
+2 C 2 H 4 C2H4+
+2 C 2 H 5 C2H5+
+2 N 1 O 1 NO+
+2 C 2 H 6 C2H6+
+1 P 1 P+
+2 N 2 H 7 NH4NH3+
+3 N 1 H 6 O NH4H2O+
+1 C 3 C3+
+2 C 3 H 1 C3H+
+2 C 3 H 2 C3H2+
+1 K 1 K+
+2 C 3 H 3 C3H3+
+1 Ca 1 Ca+
+2 C 3 H 4 C3H4+
+2 C 3 H 5 C3H5+
+2 C 3 H 6 C3H6+
+2 Al 1 O 1 AlO+
+2 C 3 H 7 C3H7+
+2 Si 1 O 1 SiO+
+3 Al 1 O 1 H 1 AlOH+
+1 Na 2 Na2+
+1 Ti 1 Ti+
+2 N 1 O 2 NO2+
+1 C 4 C4+
+2 C 4 H 1 C4H+
+2 C 4 H 2 C4H2+
+2 C 4 H 3 C4H3+
+1 V 1 V+
+2 C 4 H 4 C4H4+
+1 Cr 1 Cr+
+2 C 4 H 5 C4H5+
+2 C 4 H 6 C4H6+
+1 Fe 1 Fe+
+1 Mn 1 Mn+
+2 C 4 H 7 C4H7+
+2 Ca 1 O 1 CaO+
+2 C 4 H 8 C4H8+
+3 Ca 1 O 1 H 1 CaOH+
+2 C 4 H 9 C4H9+
+1 Ni 1 Ni+
+2 C 4 H 10 C4H10+
+								1 C 5 C5+
+1 Co 1 Co_+
+2 Na 2 O 1 Na2O+
+								2 C 5 H 1 C5H+
+3 Na 2 O 1 H 1 Na2OH+
+								2 C 5 H 2 C5H2+
+1 Cu 1 Cu+
+								2 C 5 H 3 C5H3+
+1 Zn 1 Zn+
+								2 C 5 H 4 C5H4+
+2 Ti 1 O 1 TiO+
+								2 C 5 H 5 C5H5+
+2 V 1 O 1 VO+
+								2 C 5 H 6 C5H6+
+								2 C 5 H 7 C5H7+
+2 Al 2 O 1 Al2O+
+2 Fe 1 O 1 FeO+
+								1 C 6 C6+
+3 Fe 1 O 1 H 1 FeOH+
+2 Ca 1 Cl 1 CaCl+
+1 As 1 As+
+1 K 2 K2+
+2 P 1 O 3 PO3+
+2 Ti 1 O 2 TiO2+
+3 Cu 1 O 1 H 1 CuOH+
+2 Na 2 Cl 1 Na2Cl+
+3 Cu 1 O 1 H 2 CuOH2+
+2 V 1 O 2 VO2+
+1 C 7 C7+
+3 Na 1 N 1 O 3 NaNO3+
+3 Ca 1 N 1 O 2 CaNO2+
+1 Sr 1 Sr+
+1 Amine 1 Amine+
+2 Fe 1 O 2 FeO2+
+1 Zr 1 Zr+
+3 Na 2 N 1 O 2 Na2NO2+
+1 Mo 1 Mo+
+2 Ca 2 O 1 Ca2O+
+1 C 8 C8+
+3 Cu 1 O 2 H 2 Cu(OH)2+
+3 Cu 1 O 2 H 3 Cu(OH)2H+
+3 H 3 P 1 O 4 H3PO4+
+3 K 1 N 1 O 3 KNO3+
+2 Na 3 S 1 Na3S+
+3 Ca 1 N 1 O 3 CaNO3+
+2 Sr 1 O 1 SrO+
+1 Ag 1 Ag+
+3 Na 2 N 1 O 3 Na2NO3+
+1 C 9 C9+
+3 Na 2 S 1 O 2 Na2SO2+
+2 Ca 2 O 2 (CaO)2+
+1 Fe 2 Fe2+
+2 K 2 Cl 1 K2Cl+
+3 Ca 1 O 2 H 1 CaO2H+
+2 Mo 1 O 1 MoO+
+1 Sn 1 Sn+
+1 C 10 C10+
+1 Cu 2 Cu2+
+2 Ti 2 O 2 (TiO)2+
+3 Ti 2 O 2 H 1 (TiO)2H+
+1 Zn 2 Zn2+
+1 Naphth 1 Naphth+
+1 C 11 C11+
+1 Ba 1 Ba+
+2 Sn 1 O 1 SnO+
+2 Si 3 Al 2 Si3Al2+
+3 K 2 N 1 O 3 K2NO3+
+3 Na 2 N 1 O 5 Na2NO5+
+1 MeNaphth 1 MeNaphth+
+4 Na 2 H 1 S 1 O 4 Na2HSO4+
+1 C 12 C12+
+3 Na 3 S 1 O 3 Na3SO3+
+2 Ba 1 O 1 BaO+
+3 Ba 1 O 1 H 1 BaOH+
+1 PAH-154 1 PAH-154+
+1 C 13 C13+
+3 Na 3 N 1 O 5 Na3NO5+
+3 Na 3 S 1 O 4 Na3SO4+
+2 Ca 3 O 3 (CaO)3+
+1 C 14 C14+
+3 Ca 3 O 3 H (CaO)3H+
+1 Me3Naphth 1 Me3Naphth+
+3 Na 2 N 1 O 7 Na2NO7+
+4 K 2 H 1 S 1 O 4 K2HSO40+
+1 PAH-178 1 PAH-178+
+1 C 15 C15+
+1 W 1 W+
+1 PAH-192 1 PAH-192+
+1 Pt 1 Pt+
+1 Hg 1 Hg+
+2 W 1 O 1 WO+
+1 PAH-202 1 PAH-202+
+1 Pb 1 Pb+
+3 Ba 1 Fe 1 O 1 BaFeO+
+2 Pt 1 O 1 PtO+
+3 K 3 S 1 O 4 K3SO4+
+1 PAH-216 1 PAH-216+
+2 Hg 1 O 1 HgO+
+2 Pb 1 O 1 PbO+
+2 Ca 4 O 4 (CaO)4+
+3 Ca 4 O 4 H 1 (CaO)4H+
+3 Ba 1 Fe 1 O 2 BaFeO2+
+-1

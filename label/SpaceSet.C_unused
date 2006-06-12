@@ -1,0 +1,24 @@
+#ifndef SPACE_SET_H
+#define SPACE_SET_H
+
+#include <stdlib.h>
+
+struct SpaceIndex {
+  int dimension;
+  int value;
+};
+
+typedef struct SpaceIndex SIndex;
+
+struct ltSIndex {
+  bool operator()(SIndex si1, SIndex si2) {
+	return ((si1.dimension < si2.dimension) ||
+			(si1.dimension == si2.dimension) &&
+			(si1.value < si2.value));
+  }
+}
+
+struct SpaceSetNode {
+  map<SIndex, struct SpaceSetNode *, ltSIndex> 
+
+#endif
