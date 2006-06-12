@@ -3,6 +3,12 @@
 
 <cdtproject id="org.eclipse.cdt.make.core.make">
 <extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser">
+<attribute key="addr2line" value="addr2line"/>
+<attribute key="cygpath" value="cygpath"/>
+<attribute key="c++filt" value="c++filt"/>
+<attribute key="nm" value="nm"/>
+</extension>
 <extension id="org.eclipse.cdt.core.domsourceindexer" point="org.eclipse.cdt.core.CIndexer"/>
 <data>
 <item id="scannerConfiguration">
@@ -50,6 +56,9 @@
 </item>
 <item id="org.eclipse.cdt.core.pathentry">
 <pathentry base-path="spl" exported="true" include="COIN/include" kind="inc" path="" system="true"/>
+<pathentry include="C:/cygwin/usr/include" kind="inc" path="" system="true"/>
+<pathentry include="C:/cygwin/lib/gcc/i686-pc-cygwin/3.4.4/include" kind="inc" path="" system="true"/>
+<pathentry include="C:/cygwin/lib/gcc/i686-pc-cygwin/3.4.4/include/c++" kind="inc" path="" system="true"/>
 <pathentry kind="src" path=""/>
 <pathentry kind="out" path=""/>
 <pathentry kind="con" path="org.eclipse.cdt.make.core.DISCOVERED_SCANNER_INFO"/>
@@ -58,21 +67,21 @@
 <buildTargets>
 <target name="libCoin" path="COIN/Coin" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>make</buildCommand>
-<buildArguments></buildArguments>
+<buildArguments/>
 <buildTarget>libCoin</buildTarget>
 <stopOnError>false</stopOnError>
 <useDefaultCommand>true</useDefaultCommand>
 </target>
 <target name="clean" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>c:/cygwin/bin/make.exe</buildCommand>
-<buildArguments></buildArguments>
+<buildArguments/>
 <buildTarget>clean</buildTarget>
 <stopOnError>false</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
 <target name="libClp" path="COIN/Clp" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>make</buildCommand>
-<buildArguments></buildArguments>
+<buildArguments/>
 <buildTarget>libClp</buildTarget>
 <stopOnError>false</stopOnError>
 <useDefaultCommand>true</useDefaultCommand>
