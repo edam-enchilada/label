@@ -31,19 +31,8 @@ obj/DatasetGenerator.o: ../include/Spectrum.h
 obj/DatasetGenerator.o: ../include/SpectrumReader.h
 obj/DatasetGenerator.o: ../include/SpectrumWriter.h
 obj/DatasetGenerator.o: ../include/DiscreteLabel.h
-obj/DatasetGenerator.o: /usr/include/stdlib.h /usr/include/features.h
-obj/DatasetGenerator.o: /usr/lib/gcc-lib/i386-redhat-linux/3.2.3/include/stddef.h
 obj/DatasetGenerator.o: ../include/QuantityLabel.h
-obj/DatasetGenerator.o: /usr/include/string.h
 obj/DatasetGenerator.o: ../include/DiscreteLabelWriter.h
-obj/DatasetGenerator.o: /usr/include/stdio.h /usr/include/bits/types.h
-obj/DatasetGenerator.o: /usr/include/bits/wordsize.h
-obj/DatasetGenerator.o: /usr/include/bits/typesizes.h /usr/include/libio.h
-obj/DatasetGenerator.o: /usr/include/_G_config.h /usr/include/wchar.h
-obj/DatasetGenerator.o: /usr/include/bits/wchar.h /usr/include/gconv.h
-obj/DatasetGenerator.o: /usr/lib/gcc-lib/i386-redhat-linux/3.2.3/include/stdarg.h
-obj/DatasetGenerator.o: /usr/include/bits/stdio_lim.h
-obj/DatasetGenerator.o: /usr/include/bits/sys_errlist.h
 obj/DatasetGenerator.o: ../include/QuantityLabelWriter.h
 obj/SignatureGenerator.o: ../include/SignatureGenerator.h
 obj/SignatureGenerator.o: ../include/Signature.h
@@ -59,10 +48,6 @@ obj/SignatureGenerator.o: ../include/SignatureDatabase.h
 obj/SignatureGenerator.o: ../COIN/include/CoinPackedMatrix.hpp
 obj/SignatureGenerator.o: ../COIN/include/CoinShallowPackedVector.hpp
 obj/SignatureGenerator.o: ../include/Symbol.h
-obj/SignatureGenerator.o: /usr/include/math.h /usr/include/features.h
-obj/SignatureGenerator.o: /usr/include/bits/huge_val.h
-obj/SignatureGenerator.o: /usr/include/bits/mathdef.h
-obj/SignatureGenerator.o: /usr/include/bits/mathcalls.h
 obj/SignatureFileGenerator.o: ../include/SignatureFileGenerator.h
 obj/SignatureFileGenerator.o: ../include/Signature.h
 obj/SignatureFileGenerator.o: ../include/SpectrumVector.h
@@ -80,15 +65,3 @@ obj/SignatureFileGenerator.o: ../COIN/include/CoinShallowPackedVector.hpp
 obj/SignatureFileGenerator.o: ../include/Symbol.h
 obj/SignatureFileGenerator.o: ../include/SignatureDatabaseReader.h
 obj/SignatureFileGenerator.o: ../include/SymbolReader.h
-obj/SignatureFileGenerator.o: /usr/include/stdio.h /usr/include/features.h
-obj/SignatureFileGenerator.o: /usr/include/sys/cdefs.h
-obj/SignatureFileGenerator.o: /usr/lib/gcc-lib/i386-redhat-linux/3.2.3/include/stddef.h
-obj/SignatureFileGenerator.o: /usr/include/bits/types.h
-obj/SignatureFileGenerator.o: /usr/include/bits/wordsize.h
-obj/SignatureFileGenerator.o: /usr/include/bits/typesizes.h
-obj/SignatureFileGenerator.o: /usr/include/libio.h /usr/include/_G_config.h
-obj/SignatureFileGenerator.o: /usr/include/wchar.h /usr/include/bits/wchar.h
-obj/SignatureFileGenerator.o: /usr/include/gconv.h
-obj/SignatureFileGenerator.o: /usr/lib/gcc-lib/i386-redhat-linux/3.2.3/include/stdarg.h
-obj/SignatureFileGenerator.o: /usr/include/bits/stdio_lim.h
-obj/SignatureFileGenerator.o: /usr/include/bits/sys_errlist.h

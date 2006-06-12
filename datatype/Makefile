@@ -17,8 +17,6 @@ FILES = \
 include $(SPECTRUM_ROOT)/makefiles/make.action
 # DO NOT DELETE
 
-obj/Tile.o: /usr/include/stdlib.h /usr/include/features.h
-obj/Tile.o: /usr/lib/gcc-lib/i386-redhat-linux/3.2.3/include/stddef.h
 obj/Tile.o: ../include/Tile.h
 obj/SpectrumVector.o: ../include/SpectrumVector.h
 obj/SpectrumVector.o: ../COIN/include/CoinPackedVector.hpp
@@ -57,12 +55,6 @@ obj/SignatureDatabase.o: ../COIN/include/CoinPackedVector.hpp
 obj/SignatureDatabase.o: ../COIN/include/CoinSort.hpp
 obj/SignatureDatabase.o: ../COIN/include/CoinDistance.hpp
 obj/DiscreteLabel.o: ../include/DiscreteLabel.h
-obj/DiscreteLabel.o: /usr/include/stdlib.h /usr/include/features.h
-obj/DiscreteLabel.o: /usr/lib/gcc-lib/i386-redhat-linux/3.2.3/include/stddef.h
 obj/DiscreteLabel.o: ../include/QuantityLabel.h
-obj/DiscreteLabel.o: /usr/include/string.h
 obj/QuantityLabel.o: ../include/QuantityLabel.h
-obj/QuantityLabel.o: /usr/include/stdlib.h /usr/include/features.h
-obj/QuantityLabel.o: /usr/lib/gcc-lib/i386-redhat-linux/3.2.3/include/stddef.h
-obj/QuantityLabel.o: /usr/include/string.h
 obj/Symbol.o: ../include/Symbol.h

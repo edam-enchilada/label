@@ -38,11 +38,6 @@ obj/ManhattenDistanceLabelFinder.o: ../COIN/include/CoinPackedMatrix.hpp
 obj/ManhattenDistanceLabelFinder.o: ../COIN/include/CoinShallowPackedVector.hpp
 obj/ManhattenDistanceLabelFinder.o: ../include/Signature.h
 obj/ManhattenDistanceLabelFinder.o: ../include/QuantityLabel.h
-obj/ManhattenDistanceLabelFinder.o: /usr/include/stdlib.h
-obj/ManhattenDistanceLabelFinder.o: /usr/include/features.h
-obj/ManhattenDistanceLabelFinder.o: /usr/include/sys/cdefs.h
-obj/ManhattenDistanceLabelFinder.o: /usr/lib/gcc-lib/i386-redhat-linux/3.2.3/include/stddef.h
-obj/ManhattenDistanceLabelFinder.o: /usr/include/string.h
 obj/ManhattenDistanceLabelFinder.o: ../COIN/include/ClpSimplex.hpp
 obj/ManhattenDistanceLabelFinder.o: ../COIN/include/ClpModel.hpp
 obj/ManhattenDistanceLabelFinder.o: ../COIN/include/ClpMatrixBase.hpp
@@ -65,10 +60,7 @@ obj/DiscreteLabelFinder.o: ../COIN/include/CoinPackedVector.hpp
 obj/DiscreteLabelFinder.o: ../COIN/include/CoinSort.hpp
 obj/DiscreteLabelFinder.o: ../COIN/include/CoinDistance.hpp
 obj/DiscreteLabelFinder.o: ../include/DiscreteLabel.h
-obj/DiscreteLabelFinder.o: /usr/include/stdlib.h /usr/include/features.h
-obj/DiscreteLabelFinder.o: /usr/lib/gcc-lib/i386-redhat-linux/3.2.3/include/stddef.h
 obj/DiscreteLabelFinder.o: ../include/QuantityLabel.h
-obj/DiscreteLabelFinder.o: /usr/include/string.h
 obj/DiscreteLabelFinder.o: ../include/ManhattenDistanceLabelFinder.h
 obj/DiscreteLabelFinder.o: ../include/QuantityLabelFinder.h
 obj/DiscreteLabelFinder.o: ../include/Spectrum.h
@@ -83,12 +75,7 @@ obj/DiscreteLabelFinder.o: ../include/SpectrumCoinMessageHandler.h
 obj/DiscreteLabelFinder.o: ../include/Tile.h
 obj/BranchAndBoundLabelFinder.o: ../include/BranchAndBoundLabelFinder.h
 obj/BranchAndBoundLabelFinder.o: ../include/DiscreteLabel.h
-obj/BranchAndBoundLabelFinder.o: /usr/include/stdlib.h
-obj/BranchAndBoundLabelFinder.o: /usr/include/features.h
-obj/BranchAndBoundLabelFinder.o: /usr/include/sys/cdefs.h
-obj/BranchAndBoundLabelFinder.o: /usr/lib/gcc-lib/i386-redhat-linux/3.2.3/include/stddef.h
 obj/BranchAndBoundLabelFinder.o: ../include/QuantityLabel.h
-obj/BranchAndBoundLabelFinder.o: /usr/include/string.h
 obj/BranchAndBoundLabelFinder.o: ../include/DiscreteLabelFinder.h
 obj/BranchAndBoundLabelFinder.o: ../include/SignatureDatabase.h
 obj/BranchAndBoundLabelFinder.o: ../COIN/include/CoinPackedMatrix.hpp
@@ -131,10 +118,7 @@ obj/TopKLabelFinder.o: ../COIN/include/CoinPackedVector.hpp
 obj/TopKLabelFinder.o: ../COIN/include/CoinSort.hpp
 obj/TopKLabelFinder.o: ../COIN/include/CoinDistance.hpp
 obj/TopKLabelFinder.o: ../include/DiscreteLabel.h
-obj/TopKLabelFinder.o: /usr/include/stdlib.h /usr/include/features.h
-obj/TopKLabelFinder.o: /usr/lib/gcc-lib/i386-redhat-linux/3.2.3/include/stddef.h
 obj/TopKLabelFinder.o: ../include/QuantityLabel.h
-obj/TopKLabelFinder.o: /usr/include/string.h
 obj/TopKLabelFinder.o: ../include/ManhattenDistanceLabelFinder.h
 obj/TopKLabelFinder.o: ../include/QuantityLabelFinder.h
 obj/TopKLabelFinder.o: ../include/Spectrum.h
@@ -165,10 +149,7 @@ obj/CrawlLabelFinder.o: ../COIN/include/CoinShallowPackedVector.hpp
 obj/CrawlLabelFinder.o: ../include/Signature.h
 obj/CrawlLabelFinder.o: ../include/DiscreteLabelFinder.h
 obj/CrawlLabelFinder.o: ../include/DiscreteLabel.h
-obj/CrawlLabelFinder.o: /usr/include/stdlib.h /usr/include/features.h
-obj/CrawlLabelFinder.o: /usr/lib/gcc-lib/i386-redhat-linux/3.2.3/include/stddef.h
 obj/CrawlLabelFinder.o: ../include/QuantityLabel.h
-obj/CrawlLabelFinder.o: /usr/include/string.h
 obj/CrawlLabelFinder.o: ../include/ManhattenDistanceLabelFinder.h
 obj/CrawlLabelFinder.o: ../include/QuantityLabelFinder.h
 obj/CrawlLabelFinder.o: ../COIN/include/ClpSimplex.hpp
@@ -181,21 +162,12 @@ obj/CrawlLabelFinder.o: ../COIN/include/ClpObjective.hpp
 obj/CrawlLabelFinder.o: ../include/SpectrumCoinMessageHandler.h
 obj/CrawlLabelFinder.o: ../include/SubSpaceSet.h
 obj/SubSpaceSet.o: ../include/SubSpaceSet.h
-obj/SubSpaceSet.o: /usr/include/stdlib.h /usr/include/features.h
-obj/SubSpaceSet.o: /usr/lib/gcc-lib/i386-redhat-linux/3.2.3/include/stddef.h
-obj/SubSpaceSet.o: /usr/include/string.h
 obj/CompactSearchSpace.o: ../include/CompactSearchSpace.h
-obj/CompactSearchSpace.o: /usr/include/stdlib.h /usr/include/features.h
-obj/CompactSearchSpace.o: /usr/lib/gcc-lib/i386-redhat-linux/3.2.3/include/stddef.h
 obj/CompactSearchSpace.o: ../include/DiscreteLabel.h
 obj/CompactSearchSpace.o: ../include/QuantityLabel.h
-obj/CompactSearchSpace.o: /usr/include/string.h /usr/include/assert.h
 obj/BreadthLabelFinder.o: ../include/BreadthLabelFinder.h
 obj/BreadthLabelFinder.o: ../include/DiscreteLabel.h
-obj/BreadthLabelFinder.o: /usr/include/stdlib.h /usr/include/features.h
-obj/BreadthLabelFinder.o: /usr/lib/gcc-lib/i386-redhat-linux/3.2.3/include/stddef.h
 obj/BreadthLabelFinder.o: ../include/QuantityLabel.h
-obj/BreadthLabelFinder.o: /usr/include/string.h
 obj/BreadthLabelFinder.o: ../include/DiscreteLabelFinder.h
 obj/BreadthLabelFinder.o: ../include/SignatureDatabase.h
 obj/BreadthLabelFinder.o: ../COIN/include/CoinPackedMatrix.hpp
@@ -239,10 +211,6 @@ obj/DiscreteGroupLabelFinder.o: ../COIN/include/CoinPackedMatrix.hpp
 obj/DiscreteGroupLabelFinder.o: ../COIN/include/CoinShallowPackedVector.hpp
 obj/DiscreteGroupLabelFinder.o: ../include/Signature.h
 obj/DiscreteGroupLabelFinder.o: ../include/QuantityLabel.h
-obj/DiscreteGroupLabelFinder.o: /usr/include/stdlib.h /usr/include/features.h
-obj/DiscreteGroupLabelFinder.o: /usr/include/sys/cdefs.h
-obj/DiscreteGroupLabelFinder.o: /usr/lib/gcc-lib/i386-redhat-linux/3.2.3/include/stddef.h
-obj/DiscreteGroupLabelFinder.o: /usr/include/string.h
 obj/DiscreteGroupLabelFinder.o: ../COIN/include/ClpSimplex.hpp
 obj/DiscreteGroupLabelFinder.o: ../COIN/include/ClpModel.hpp
 obj/DiscreteGroupLabelFinder.o: ../COIN/include/ClpMatrixBase.hpp
@@ -271,10 +239,6 @@ obj/SimpleGroupLabelFinder.o: ../COIN/include/CoinPackedMatrix.hpp
 obj/SimpleGroupLabelFinder.o: ../COIN/include/CoinShallowPackedVector.hpp
 obj/SimpleGroupLabelFinder.o: ../include/Signature.h
 obj/SimpleGroupLabelFinder.o: ../include/QuantityLabel.h
-obj/SimpleGroupLabelFinder.o: /usr/include/stdlib.h /usr/include/features.h
-obj/SimpleGroupLabelFinder.o: /usr/include/sys/cdefs.h
-obj/SimpleGroupLabelFinder.o: /usr/lib/gcc-lib/i386-redhat-linux/3.2.3/include/stddef.h
-obj/SimpleGroupLabelFinder.o: /usr/include/string.h
 obj/SimpleGroupLabelFinder.o: ../COIN/include/ClpSimplex.hpp
 obj/SimpleGroupLabelFinder.o: ../COIN/include/ClpModel.hpp
 obj/SimpleGroupLabelFinder.o: ../COIN/include/ClpMatrixBase.hpp
@@ -306,10 +270,6 @@ obj/StupidGroupLabelFinder.o: ../COIN/include/CoinPackedMatrix.hpp
 obj/StupidGroupLabelFinder.o: ../COIN/include/CoinShallowPackedVector.hpp
 obj/StupidGroupLabelFinder.o: ../include/Signature.h
 obj/StupidGroupLabelFinder.o: ../include/QuantityLabel.h
-obj/StupidGroupLabelFinder.o: /usr/include/stdlib.h /usr/include/features.h
-obj/StupidGroupLabelFinder.o: /usr/include/sys/cdefs.h
-obj/StupidGroupLabelFinder.o: /usr/lib/gcc-lib/i386-redhat-linux/3.2.3/include/stddef.h
-obj/StupidGroupLabelFinder.o: /usr/include/string.h
 obj/StupidGroupLabelFinder.o: ../COIN/include/ClpSimplex.hpp
 obj/StupidGroupLabelFinder.o: ../COIN/include/ClpModel.hpp
 obj/StupidGroupLabelFinder.o: ../COIN/include/ClpMatrixBase.hpp
@@ -342,9 +302,6 @@ obj/BBGroupLabelFinder.o: ../COIN/include/CoinPackedMatrix.hpp
 obj/BBGroupLabelFinder.o: ../COIN/include/CoinShallowPackedVector.hpp
 obj/BBGroupLabelFinder.o: ../include/Signature.h
 obj/BBGroupLabelFinder.o: ../include/QuantityLabel.h
-obj/BBGroupLabelFinder.o: /usr/include/stdlib.h /usr/include/features.h
-obj/BBGroupLabelFinder.o: /usr/lib/gcc-lib/i386-redhat-linux/3.2.3/include/stddef.h
-obj/BBGroupLabelFinder.o: /usr/include/string.h
 obj/BBGroupLabelFinder.o: ../COIN/include/ClpSimplex.hpp
 obj/BBGroupLabelFinder.o: ../COIN/include/ClpModel.hpp
 obj/BBGroupLabelFinder.o: ../COIN/include/ClpMatrixBase.hpp
@@ -376,9 +333,6 @@ obj/BFGroupLabelFinder.o: ../COIN/include/CoinPackedMatrix.hpp
 obj/BFGroupLabelFinder.o: ../COIN/include/CoinShallowPackedVector.hpp
 obj/BFGroupLabelFinder.o: ../include/Signature.h
 obj/BFGroupLabelFinder.o: ../include/QuantityLabel.h
-obj/BFGroupLabelFinder.o: /usr/include/stdlib.h /usr/include/features.h
-obj/BFGroupLabelFinder.o: /usr/lib/gcc-lib/i386-redhat-linux/3.2.3/include/stddef.h
-obj/BFGroupLabelFinder.o: /usr/include/string.h
 obj/BFGroupLabelFinder.o: ../COIN/include/ClpSimplex.hpp
 obj/BFGroupLabelFinder.o: ../COIN/include/ClpModel.hpp
 obj/BFGroupLabelFinder.o: ../COIN/include/ClpMatrixBase.hpp

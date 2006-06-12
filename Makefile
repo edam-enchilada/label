@@ -13,6 +13,7 @@ depend :
 
 clean:
 	-@for i in $(SUBDIRS); do (cd $$i; $(MAKE) clean); done;
+	rm bin/spectrum.exe
 
 setup:
 	cd include; $(MAKE) $@
