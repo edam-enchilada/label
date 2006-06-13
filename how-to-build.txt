@@ -1,0 +1,26 @@
+Gosh, using the labelling source code from CVS is as easy as 1, 2, 3!  4!
+
+
+1. Install CYGWIN if it's not on your system already.  The cygwin website is www.cygwin.com.  You really only need the base system, and a shell.
+
+2. Install MSys and MinGW.  There are instructions on this, somewhere.  Install them to c:\msys and c:\mingw for things to work without futzing.
+
+3. Install CDT (Eclipse's environment for C, C++).
+If you're using Eclipse 3.1, go to Help->Software Updates->Find and Install.  "Search for new features to install", Next, New Remote Site: http://download.eclipse.org/tools/cdt/releases/eclipse3.1
+
+Then it will install once you "detect the features" there.
+
+Once that's all worked out,
+
+4. "Create a New Project from CVS" from edam-enchilada.cvs.sourceforge.net:/cvsroot/edam-enchilada .  The module name is label.
+
+
+
+If you installed cygwin in a different place from me, you might have to change the "Build command", in the C/C++ Make Project pane of the project's Preferences.
+If you have to do this, we might want to add .cdtproject, the file that stores settings like this, to .cvsignore.
+
+
+On my machine, the first time you try to compile it (by pressing the "010" button at the left on the toolbar), it is unsuccessful in creating the libraries, but everything else works.  Then, if you do some trivial edit to something to make it remake, it builds successfully.  I think this problem might be on line 25 of makefiles/make.action, but I don't know how to fix it.
+
+
+If eclipse complains to you about not being able to find include files (lots of yellow underlines on every include statement of a c++ header, for example), then you'll need to tell it where to find c++ headers.  They live in the cygwin install directory/lib/gcc/i686-pc-cygwin/3.4.4/include/c++ on my system.  you tell eclipse about these directories by right-clicking on the project and selecting properties, then selecting c/c++ include paths and symbols in the left pane.
