@@ -7,9 +7,12 @@
 //#############################################################################
 
 #include <ctime>
+
 #if defined(_MSC_VER)
 // Turn off compiler warning about long names
 #  pragma warning(disable:4786)
+#elif defined(__MINGW32__)
+// nothing
 #else
 #include <sys/resource.h>
 #endif
@@ -19,7 +22,7 @@
 static inline double CoinCpuTime()
 {
   double cpu_temp;
-#if defined(_MSC_VER)
+#if defined(__MINGW32__) || defined(_MSC_VER)
   unsigned int ticksnow;        /* clock_t is same as int */
   
   ticksnow = (unsigned int)clock();

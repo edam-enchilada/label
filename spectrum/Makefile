@@ -25,8 +25,8 @@ all : spectrum
 
 spectrum : setup $(MAIN_OBJ)
 	$(CXX) $(CXXFLAGS) -g -o $@ $(MAIN_OBJ) $(LDFLAGS)
-	rm -f $(UB_ROOT)/bin/spectrum
-	ln -s $(UB_ROOT)/spectrum/spectrum $(UB_ROOT)/bin/spectrum
+	rm -f $(UB_ROOT)/bin/spectrum*
+	ln -s $(UB_ROOT)/spectrum/spectrum.exe $(UB_ROOT)/bin/spectrum.exe
 
 cleanAnalyser : 
 	rm -rf analyser

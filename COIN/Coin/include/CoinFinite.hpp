@@ -72,6 +72,13 @@ using std::max;
 
 //=============================================================================
 
+#if defined(__MINGW32__)
+# define CoinFinite finite
+# define CoinIsnan  std::isnan
+#endif
+
+//=============================================================================
+
 #if defined(__GNUC__) && defined(__MACH__)
 extern "C" {
    int isnan(double);

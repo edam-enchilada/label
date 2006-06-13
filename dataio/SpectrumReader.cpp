@@ -99,13 +99,13 @@ Spectrum *SpectrumReader::readFromSimpleTextFile() {
   int vecsize = 0;
   char buffer[2000];
 
-  int errno = fscanf(file, "%s\n", buffer);
+  int err = fscanf(file, "%s\n", buffer);
  
   //printf("%s\n", buffer);
 
   //fscanf(file, "%d", &indx);
   
-  if (errno != EOF ) {
+  if (err != EOF ) {
 	fscanf(file, "%d", &indx);
 	
 	while (indx != -1) {

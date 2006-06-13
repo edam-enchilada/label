@@ -14,7 +14,9 @@
 #include "Presolve.hpp"
 #include <time.h>
 
-#ifndef _MSC_VER
+#if defined(_MSC_VER) || defined(__MINGW32__)
+/* nothing */
+#else
 #include <sys/times.h>
 #include <sys/resource.h>
 #include <unistd.h>
@@ -22,7 +24,7 @@
 static double cpuTime()
 {
   double cpu_temp;
-#if defined(_MSC_VER)
+#if defined(_MSC_VER) || defined(__MINGW32__)
   unsigned int ticksnow;        /* clock_t is same as int */
   
   ticksnow = (unsigned int)clock();

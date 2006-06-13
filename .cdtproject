@@ -55,33 +55,40 @@
 </profile>
 </item>
 <item id="org.eclipse.cdt.core.pathentry">
+<pathentry kind="src" path=""/>
+<pathentry kind="out" path=""/>
+<pathentry kind="con" path="org.eclipse.cdt.make.core.DISCOVERED_SCANNER_INFO"/>
 <pathentry base-path="spl" exported="true" include="COIN/include" kind="inc" path="" system="true"/>
 <pathentry include="C:/cygwin/usr/include" kind="inc" path="" system="true"/>
 <pathentry include="C:/cygwin/lib/gcc/i686-pc-cygwin/3.4.4/include" kind="inc" path="" system="true"/>
 <pathentry include="C:/cygwin/lib/gcc/i686-pc-cygwin/3.4.4/include/c++" kind="inc" path="" system="true"/>
-<pathentry kind="src" path=""/>
-<pathentry kind="out" path=""/>
-<pathentry kind="con" path="org.eclipse.cdt.make.core.DISCOVERED_SCANNER_INFO"/>
 </item>
 <item id="org.eclipse.cdt.make.core.buildtargets">
 <buildTargets>
 <target name="libCoin" path="COIN/Coin" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>make</buildCommand>
-<buildArguments/>
+<buildArguments></buildArguments>
 <buildTarget>libCoin</buildTarget>
 <stopOnError>false</stopOnError>
 <useDefaultCommand>true</useDefaultCommand>
 </target>
 <target name="clean" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>c:/cygwin/bin/make.exe</buildCommand>
-<buildArguments/>
+<buildArguments></buildArguments>
 <buildTarget>clean</buildTarget>
+<stopOnError>false</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="clean_all" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>c:/cygwin/bin/make.exe</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>clean_all</buildTarget>
 <stopOnError>false</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
 <target name="libClp" path="COIN/Clp" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>make</buildCommand>
-<buildArguments/>
+<buildArguments></buildArguments>
 <buildTarget>libClp</buildTarget>
 <stopOnError>false</stopOnError>
 <useDefaultCommand>true</useDefaultCommand>
