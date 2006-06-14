@@ -4,7 +4,7 @@ Gosh, using the labelling source code from CVS is as easy as 1, 2, 3!  4!
 1. Install CYGWIN if it's not on your system already.
 If you are installing it, install it to c:\cygwin, so that the paths
 that are hardcoded there will still work.  I think there's only one,
-but there might be more.
+the path to make.exe, but there might be more.
 
 The cygwin website is www.cygwin.com.  When it asks you for a mirror
 to choose, mirrors.kernel.org is a good one.  You really only need the
@@ -46,18 +46,9 @@ to change the "Build command", in the C/C++ Make Project pane of the
 project's Preferences.  If you have to do this, we might want to add
 .cdtproject, the file that stores settings like this, to .cvsignore.
 
-On my machine, the first time you try to compile it (by pressing the
-"010" button at the left on the toolbar), it is unsuccessful in
-creating the libraries, but everything else works.  If you force it to
-try to compile again, by doing some trivial edit to a file and then
-clicking Compile again, it builds successfully.  I think this problem
-might be on line 25 of makefiles/make.action, but I don't know how to
-fix it.
-
-
 Once you've easily compiled spectrum.exe, you can tell whether it
-depends on CYGWIN by running this command in a terminal (in the
-correct directory):
+depends on CYGWIN by running this command in a cygwin/msys terminal 
+(in the correct directory):
 objdump -p spectrum.exe | grep "DLL Name"
 It should only list KERNEL32.DLL and msvcrt.dll (Microsoft's C runtime
 library, distributed with Windows).
