@@ -29,3 +29,7 @@ clean_clp :
 clean_all : clean_clp clean
 
 all : clp spectrum
+
+dist: all
+	strip bin/spectrum.exe
+

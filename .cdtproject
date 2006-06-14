@@ -65,13 +65,6 @@
 </item>
 <item id="org.eclipse.cdt.make.core.buildtargets">
 <buildTargets>
-<target name="libCoin" path="COIN/Coin" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
-<buildCommand>make</buildCommand>
-<buildArguments></buildArguments>
-<buildTarget>libCoin</buildTarget>
-<stopOnError>false</stopOnError>
-<useDefaultCommand>true</useDefaultCommand>
-</target>
 <target name="clean" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>c:/cygwin/bin/make.exe</buildCommand>
 <buildArguments></buildArguments>
@@ -85,6 +78,20 @@
 <buildTarget>clean_all</buildTarget>
 <stopOnError>false</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="distributable binary" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>c:/cygwin/bin/make.exe</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>dist</buildTarget>
+<stopOnError>false</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="libCoin" path="COIN/Coin" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>libCoin</buildTarget>
+<stopOnError>false</stopOnError>
+<useDefaultCommand>true</useDefaultCommand>
 </target>
 <target name="libClp" path="COIN/Clp" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>make</buildCommand>
