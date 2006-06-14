@@ -22,7 +22,7 @@ $(OBJ_DIR):
 SRCS = $(FILES)
 OBJS = $(FILES:%.cpp=%.o)
 
-$(TARGET): $(OBJS)
+$(TARGET): $(addprefix $(OBJ_DIR)/,$(OBJS))
 	ar cr $(TARGET_LIB_PATH)/$@ $?
 	-$(RANLIB) $(TARGET_LIB_PATH)/$@
 
