@@ -8,7 +8,7 @@ but there might be more.
 
 The cygwin website is www.cygwin.com.  When it asks you for a mirror
 to choose, mirrors.kernel.org is a good one.  You really only need the
-Base system, I think.
+Base system and make.
 
 2. Install MSys and MinGW.
 MSys is a minimalist set of tools that can be used to build software.
@@ -30,6 +30,8 @@ Install.  "Search for new features to install", Next, New Remote Site:
 http://download.eclipse.org/tools/cdt/releases/eclipse3.1
 
 Then it will install once you "detect the features" there.
+
+Install CDT itself, not the CDT development SDK thing.
 
 Once that's all worked out,
 
